@@ -1,4 +1,17 @@
 {
+  "tenant-mode": "dedicated",
+  "authorities-inheritance": false,
+  "oauth2-configuration": {
+    "credential-types": [
+      "binding-secret",
+      "x509"
+    ],
+    "redirect-uris": [
+      "https://*.applicationstudio.cloud.sap/**",
+      "http://localhost:4004/**",
+      "https://5d6e022ctrial-dev-cap-ff-dinner.cfapps.us10-001.hana.ondemand.com/**"
+    ]
+  },
   "scopes": [
     {
       "name": "$XSAPPNAME.admin",
